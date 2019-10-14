@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DS1315
+F https://datasheets.maximintegrated.com/en/ds/DS1315.pdf
+$ENDCMP
+#
+#End Doc Library

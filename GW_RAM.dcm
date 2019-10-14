@@ -1,0 +1,29 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DRAM-4Mx4-SOP-24
+F https://shop.micross.com/pdf/AS4C4M4.pdf
+$ENDCMP
+#
+$CMP Flash-4Mx16-TSOP1-48
+D Silicon Storage Technology (SSF) 512k x 8 Flash ROM
+K 512k flash rom
+F http://ww1.microchip.com/downloads/en/DeviceDoc/25022B.pdf
+$ENDCMP
+#
+$CMP Flash-512Kx8-PLCC-32
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005022C.pdf
+$ENDCMP
+#
+$CMP SRAM-128Kx8-TSOP1-32
+D 128K x 8 High-Speed CMOS Static RAM, 55/70ns, TSOP-I-32
+K RAM SRAM CMOS MEMORY
+F http://www.futurlec.com/Datasheet/Memory/628128.pdf
+$ENDCMP
+#
+$CMP SRAM-1Mx8-TSOP2-44
+D 512K x 8 HIGH-SPEED CMOS STATIC RAM, 10ns, SOJ-36
+K SRAM MEMORY
+F https://www.alliancememory.com/wp-content/uploads/pdf/AS6C8008.pdf
+$ENDCMP
+#
+#End Doc Library
