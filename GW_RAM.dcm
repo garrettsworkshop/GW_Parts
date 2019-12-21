@@ -5,13 +5,17 @@ F https://shop.micross.com/pdf/AS4C4M4.pdf
 $ENDCMP
 #
 $CMP Flash-4Mx16-TSOP1-48
-D Silicon Storage Technology (SSF) 512k x 8 Flash ROM
-K 512k flash rom
 F http://ww1.microchip.com/downloads/en/DeviceDoc/25022B.pdf
 $ENDCMP
 #
 $CMP Flash-512Kx8-PLCC-32
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005022C.pdf
+$ENDCMP
+#
+$CMP SRAM-128Kx8-SOP-32
+D 128K x 8 High-Speed CMOS Static RAM, 55/70ns, TSOP-I-32
+K RAM SRAM CMOS MEMORY
+F http://www.futurlec.com/Datasheet/Memory/628128.pdf
 $ENDCMP
 #
 $CMP SRAM-128Kx8-TSOP1-32
