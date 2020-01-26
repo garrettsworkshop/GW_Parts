@@ -4,6 +4,12 @@ $CMP EPM7128SL84
 F https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/ds/archives/m7000.pdf
 $ENDCMP
 #
+$CMP GAL16V8
+D generic 24-pin Programmable Array Logic (PAL) device
+K logic programmable PAL
+F ~
+$ENDCMP
+#
 $CMP GAL22V10-PLCC
 D generic 24-pin Programmable Array Logic (PAL) device
 K logic programmable PAL
