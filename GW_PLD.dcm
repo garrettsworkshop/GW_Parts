@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 5M240ZT100
+D Altera MAX2 CPLD with 240 LE
+K MAX2 TQFP
+F https://www.altera.com/content/dam/altera-www/global/en_US/pdfs/literature/hb/max2/max2_mii5v1.pdf
+$ENDCMP
+#
+$CMP EPM240T100
+D Altera MAX2 CPLD with 240 LE
+K MAX2 TQFP
+F https://www.altera.com/content/dam/altera-www/global/en_US/pdfs/literature/hb/max2/max2_mii5v1.pdf
+$ENDCMP
+#
 $CMP EPM7128SL84
 F https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/ds/archives/m7000.pdf
 $ENDCMP
