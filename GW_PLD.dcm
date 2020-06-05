@@ -46,6 +46,10 @@ $CMP M5LV-PQFP-100
 F https://www.latticesemi.com/-/media/LatticeSemi/Documents/DataSheets/MACH/MACH5DataSheet.ashx?la=en
 $ENDCMP
 #
+$CMP M5LV-TQFP-144
+F https://www.latticesemi.com/-/media/LatticeSemi/Documents/DataSheets/MACH/MACH5DataSheet.ashx?la=en
+$ENDCMP
+#
 $CMP iCE40HX4K-TQFP-144
 F http://www.latticesemi.com/~/media/LatticeSemi/Documents/DataSheets/iCE/iCE40LPHXFamilyDataSheet.pdf
 $ENDCMP
