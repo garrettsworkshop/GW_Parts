@@ -30,4 +30,10 @@ K SRAM MEMORY
 F https://www.alliancememory.com/wp-content/uploads/pdf/AS6C8008.pdf
 $ENDCMP
 #
+$CMP SRAM-512Kx16-TSOP2-44
+D 512K x 8 HIGH-SPEED CMOS STATIC RAM, 10ns, SOJ-36
+K SRAM MEMORY
+F https://www.alliancememory.com/wp-content/uploads/pdf/AS6C8008.pdf
+$ENDCMP
+#
 #End Doc Library
