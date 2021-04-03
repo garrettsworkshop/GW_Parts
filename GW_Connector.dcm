@@ -6,4 +6,10 @@ K connector
 F ~
 $ENDCMP
 #
+$CMP MiniDIN-8
+D 8-pin Mini-DIN connector
+K Mini-DIN
+F http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf
+$ENDCMP
+#
 #End Doc Library
