@@ -3,29 +3,21 @@ EESchema-DOCLIB  Version 2.0
 $CMP 5M160ZE64
 D Altera MAX2 CPLD with 240 LE
 K MAX2 TQFP
-F https://www.altera.com/content/dam/altera-www/global/en_US/pdfs/literature/hb/max2/max2_mii5v1.pdf
 $ENDCMP
 #
 $CMP 5M240ZT100
 D Altera MAX2 CPLD with 240 LE
 K MAX2 TQFP
-F https://www.altera.com/content/dam/altera-www/global/en_US/pdfs/literature/hb/max2/max2_mii5v1.pdf
 $ENDCMP
 #
 $CMP EPM240T100
 D Altera MAX2 CPLD with 240 LE
 K MAX2 TQFP
-F https://www.altera.com/content/dam/altera-www/global/en_US/pdfs/literature/hb/max2/max2_mii5v1.pdf
 $ENDCMP
 #
 $CMP EPM570T100
 D Altera MAX2 CPLD with 240 LE
 K MAX2 TQFP
-F https://www.altera.com/content/dam/altera-www/global/en_US/pdfs/literature/hb/max2/max2_mii5v1.pdf
-$ENDCMP
-#
-$CMP EPM7128SL84
-F https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/ds/archives/m7000.pdf
 $ENDCMP
 #
 $CMP GAL16V8
@@ -46,24 +38,8 @@ K logic programmable PAL
 F ~
 $ENDCMP
 #
-$CMP LCMXO256-TQFP-100
-F http://www.latticesemi.com/~/media/LatticeSemi/Documents/DataSheets/MachXO23/MachXOFamilyDataSheet.pdf
-$ENDCMP
-#
 $CMP LFE5U-12F-BG256
 F http://www.latticesemi.com/-/media/LatticeSemi/Documents/DataSheets/ECP5/FPGA-DS-02012-1-9-ECP5-ECP5G-Family-Data-Sheet.ashx?document_id=50461
-$ENDCMP
-#
-$CMP M5LV-PQFP-100
-F https://www.latticesemi.com/-/media/LatticeSemi/Documents/DataSheets/MACH/MACH5DataSheet.ashx?la=en
-$ENDCMP
-#
-$CMP M5LV-TQFP-144
-F https://www.latticesemi.com/-/media/LatticeSemi/Documents/DataSheets/MACH/MACH5DataSheet.ashx?la=en
-$ENDCMP
-#
-$CMP iCE40HX4K-TQFP-144
-F http://www.latticesemi.com/~/media/LatticeSemi/Documents/DataSheets/iCE/iCE40LPHXFamilyDataSheet.pdf
 $ENDCMP
 #
 #End Doc Library
