@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP DRAM-16Mx4-SOP-32
+F https://shop.micross.com/pdf/AS4C4M4.pdf
+$ENDCMP
+#
 $CMP DRAM-4Mx4-SOP-24
 F https://shop.micross.com/pdf/AS4C4M4.pdf
 $ENDCMP
