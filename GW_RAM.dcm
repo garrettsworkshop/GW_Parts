@@ -1,6 +1,6 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP DRAM-4Mx4-SOP-24
+$CMP DRAM-1Mx4-SOP-24
 F https://shop.micross.com/pdf/AS4C4M4.pdf
 $ENDCMP
 #
@@ -25,6 +25,12 @@ F http://www.futurlec.com/Datasheet/Memory/628128.pdf
 $ENDCMP
 #
 $CMP SRAM-1Mx8-TSOP2-44
+D 512K x 8 HIGH-SPEED CMOS STATIC RAM, 10ns, SOJ-36
+K SRAM MEMORY
+F https://www.alliancememory.com/wp-content/uploads/pdf/AS6C8008.pdf
+$ENDCMP
+#
+$CMP SRAM-2Mx8-TSOP2-44
 D 512K x 8 HIGH-SPEED CMOS STATIC RAM, 10ns, SOJ-36
 K SRAM MEMORY
 F https://www.alliancememory.com/wp-content/uploads/pdf/AS6C8008.pdf
