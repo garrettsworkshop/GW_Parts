@@ -1,1031 +1,4251 @@
-(kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
-  (symbol "AP2127K" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "U" (at 0 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "AP2127K" (at 0 -6.35 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "stdpads:SOT-23-5" (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27)) (justify top) hide)
-    )
-    (property "Datasheet" "" (at 0 -2.54 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (symbol "AP2127K_0_1"
-      (rectangle (start -6.35 5.08) (end 6.35 -5.08)
-        (stroke (width 0.254) (type default))
-        (fill (type background))
-      )
-    )
-    (symbol "AP2127K_1_1"
-      (pin power_in line (at -11.43 2.54 0) (length 5.08)
-        (name "Vin" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -11.43 -2.54 0) (length 5.08)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -11.43 0 0) (length 5.08)
-        (name "EN" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 11.43 -2.54 180) (length 5.08)
-        (name "NC" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_out line (at 11.43 2.54 180) (length 5.08)
-        (name "Vout" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "AP3417C" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "U" (at 0 6.35 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "AP3417C" (at 0 -6.35 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "stdpads:SOT-23-5" (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27)) (justify top) hide)
-    )
-    (property "Datasheet" "" (at 0 0 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (symbol "AP3417C_0_1"
-      (rectangle (start -5.08 5.08) (end 5.08 -5.08)
-        (stroke (width 0.254) (type default))
-        (fill (type background))
-      )
-    )
-    (symbol "AP3417C_1_1"
-      (pin input line (at -10.16 0 0) (length 5.08)
-        (name "EN" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -10.16 -2.54 0) (length 5.08)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_out line (at 10.16 2.54 180) (length 5.08)
-        (name "LX" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -10.16 2.54 0) (length 5.08)
-        (name "Vin" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 10.16 -2.54 180) (length 5.08)
-        (name "FB" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "AZ1117CH2" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-    (property "Reference" "U" (at -3.81 3.175 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "AZ1117CH2" (at 0 3.175 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2" (at 0 5.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.diodes.com/datasheets/AP1117.pdf" (at 2.54 -6.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "linear regulator ldo fixed positive obsolete" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "1A Low Dropout regulator, positive, 1.5V fixed output, SOT-223" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "SOT?223*TabPin2*" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "AZ1117CH2_0_1"
-      (rectangle (start -5.08 -5.08) (end 5.08 1.905)
-        (stroke (width 0.254) (type default))
-        (fill (type background))
-      )
-    )
-    (symbol "AZ1117CH2_1_1"
-      (pin power_in line (at -7.62 0 0) (length 2.54)
-        (name "VI" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 0 -7.62 90) (length 2.54)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_out line (at 7.62 0 180) (length 2.54)
-        (name "VO" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "BQ21040DBV" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "U" (at 0 6.35 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "BQ21040DBV" (at 0 -6.35 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "stdpads:SOT-23-6" (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27)) (justify top) hide)
-    )
-    (property "Datasheet" "" (at 0 -2.54 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (symbol "BQ21040DBV_0_1"
-      (rectangle (start -6.35 5.08) (end 6.35 -5.08)
-        (stroke (width 0.254) (type default))
-        (fill (type background))
-      )
-    )
-    (symbol "BQ21040DBV_1_1"
-      (pin unspecified line (at 11.43 0 180) (length 5.08)
-        (name "TS" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_out line (at 11.43 2.54 180) (length 5.08)
-        (name "Out" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin tri_state line (at -11.43 0 0) (length 5.08)
-        (name "~{CHG}" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line (at 11.43 -2.54 180) (length 5.08)
-        (name "ISet" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -11.43 -2.54 0) (length 5.08)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -11.43 2.54 0) (length 5.08)
-        (name "Vin" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "BQ297xxDSE" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "U" (at 0 6.35 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "BQ297xxDSE" (at 0 -6.35 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "stdpads:SOT-23-6" (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27)) (justify top) hide)
-    )
-    (property "Datasheet" "" (at 0 -2.54 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (symbol "BQ297xxDSE_0_1"
-      (rectangle (start -6.35 5.08) (end 6.35 -5.08)
-        (stroke (width 0.254) (type default))
-        (fill (type background))
-      )
-    )
-    (symbol "BQ297xxDSE_1_1"
-      (pin no_connect line (at -11.43 2.54 0) (length 5.08)
-        (name "NC" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at 11.43 0 180) (length 5.08)
-        (name "COUT" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at 11.43 -2.54 180) (length 5.08)
-        (name "DOUT" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -11.43 -2.54 0) (length 5.08)
-        (name "Vss" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -11.43 0 0) (length 5.08)
-        (name "BAT" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 11.43 2.54 180) (length 5.08)
-        (name "V-" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "LM1117" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-    (property "Reference" "U" (at 0 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "LM1117" (at 0 2.54 0)
-      (effects (font (size 1.27 1.27)) (justify bottom))
-    )
-    (property "Footprint" "stdpads:SOT-223" (at 0 5.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 2.54 -6.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "linear regulator ldo fixed positive obsolete" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "1A Low Dropout regulator, positive, 1.8V fixed output, SOT-223" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "SOT?223*TabPin2*" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "LM1117_0_1"
-      (rectangle (start -5.08 -5.08) (end 5.08 1.905)
-        (stroke (width 0.254) (type default))
-        (fill (type background))
-      )
-    )
-    (symbol "LM1117_1_1"
-      (pin power_in line (at 0 -7.62 90) (length 2.54)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_out line (at 7.62 0 180) (length 2.54)
-        (name "VO" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -7.62 0 0) (length 2.54)
-        (name "VI" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "MAX40200AUK" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "U" (at 0 6.35 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "MAX40200AUK" (at 0 -6.35 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "stdpads:SOT-353" (at 0 -7.62 0)
-      (effects (font (size 0.508 0.508)))
-    )
-    (property "Datasheet" "" (at 0 -2.54 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (symbol "MAX40200AUK_0_1"
-      (rectangle (start -6.35 5.08) (end 6.35 -5.08)
-        (stroke (width 0.254) (type default))
-        (fill (type background))
-      )
-    )
-    (symbol "MAX40200AUK_1_1"
-      (pin power_in line (at -11.43 2.54 0) (length 5.08)
-        (name "Vin" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -11.43 -2.54 0) (length 5.08)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -11.43 0 0) (length 5.08)
-        (name "En" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 11.43 -2.54 180) (length 5.08)
-        (name "NC" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_out line (at 11.43 2.54 180) (length 5.08)
-        (name "Vout" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "MIC2005A" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "U" (at 0 6.35 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "MIC2005A" (at 0 -6.35 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "stdpads:SOT-23-6" (at 0 -7.62 0)
-      (effects (font (size 0.508 0.508)))
-    )
-    (property "Datasheet" "" (at 0 0 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (symbol "MIC2005A_0_1"
-      (rectangle (start -6.35 5.08) (end 6.35 -5.08)
-        (stroke (width 0.254) (type default))
-        (fill (type background))
-      )
-    )
-    (symbol "MIC2005A_1_1"
-      (pin power_in line (at -11.43 2.54 0) (length 5.08)
-        (name "Vin" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -11.43 -2.54 0) (length 5.08)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -11.43 0 0) (length 5.08)
-        (name "EN" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 11.43 -2.54 180) (length 5.08)
-        (name "~{FLT}" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 11.43 0 180) (length 5.08)
-        (name "Cslew" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_out line (at 11.43 2.54 180) (length 5.08)
-        (name "Vout" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "MIC5353YMT" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "U" (at 0 5.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "MIC5353YMT" (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "stdpads:Micrel_TMLF-6_1.6x1.6mm" (at 0 -8.89 0)
-      (effects (font (size 1.27 1.27)) (justify top) hide)
-    )
-    (property "Datasheet" "" (at 0 -3.81 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (symbol "MIC5353YMT_0_1"
-      (rectangle (start -6.35 3.81) (end 6.35 -6.35)
-        (stroke (width 0.254) (type default))
-        (fill (type background))
-      )
-    )
-    (symbol "MIC5353YMT_1_1"
-      (pin input line (at -11.43 -1.27 0) (length 5.08)
-        (name "En" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -11.43 -3.81 0) (length 5.08)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -11.43 1.27 0) (length 5.08)
-        (name "Vin" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_out line (at 11.43 1.27 180) (length 5.08)
-        (name "Vout" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 11.43 -1.27 180) (length 5.08)
-        (name "Adj" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_out line (at 11.43 -3.81 180) (length 5.08)
-        (name "BYP" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -11.43 -3.81 0) (length 5.08) hide
-        (name "pad" (effects (font (size 1.27 1.27))))
-        (number "7" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "MIC5365-1.2YC5" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "U" (at 0 5.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "MIC5365-1.2YC5" (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "stdpads:SOT-353" (at 0 -8.89 0)
-      (effects (font (size 1.27 1.27)) (justify top) hide)
-    )
-    (property "Datasheet" "" (at 0 -3.81 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (symbol "MIC5365-1.2YC5_0_1"
-      (rectangle (start -6.35 3.81) (end 6.35 -6.35)
-        (stroke (width 0.254) (type default))
-        (fill (type background))
-      )
-    )
-    (symbol "MIC5365-1.2YC5_1_1"
-      (pin power_in line (at -11.43 1.27 0) (length 5.08)
-        (name "Vin" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -11.43 -3.81 0) (length 5.08)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -11.43 -1.27 0) (length 5.08)
-        (name "En" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 11.43 -3.81 180) (length 5.08)
-        (name "NC" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_out line (at 11.43 1.27 180) (length 5.08)
-        (name "Vout" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "MIC5365-1.8YC5" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "U" (at 0 5.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "MIC5365-1.8YC5" (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "stdpads:SOT-353" (at 0 -8.89 0)
-      (effects (font (size 1.27 1.27)) (justify top) hide)
-    )
-    (property "Datasheet" "" (at 0 -3.81 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (symbol "MIC5365-1.8YC5_0_1"
-      (rectangle (start -6.35 3.81) (end 6.35 -6.35)
-        (stroke (width 0.254) (type default))
-        (fill (type background))
-      )
-    )
-    (symbol "MIC5365-1.8YC5_1_1"
-      (pin power_in line (at -11.43 1.27 0) (length 5.08)
-        (name "Vin" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -11.43 -3.81 0) (length 5.08)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -11.43 -1.27 0) (length 5.08)
-        (name "En" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 11.43 -3.81 180) (length 5.08)
-        (name "NC" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_out line (at 11.43 1.27 180) (length 5.08)
-        (name "Vout" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "MP2451" (in_bom yes) (on_board yes)
-    (property "Reference" "U" (at 0 1.27 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "MP2451" (at 0 6.35 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "stdpads:SOT-23-6" (at 0 -6.35 0)
-      (effects (font (size 1.016 1.016)) (justify left) hide)
-    )
-    (property "Datasheet" "" (at 0 1.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "switching buck converter" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "1.2 A Simple Buck Regulator, 3-26V input, 1.5Mhz" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "SOT?23*" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "MP2451_0_1"
-      (rectangle (start -7.62 5.08) (end 7.62 -5.08)
-        (stroke (width 0.254) (type default))
-        (fill (type background))
-      )
-    )
-    (symbol "MP2451_1_1"
-      (pin input line (at 10.16 2.54 180) (length 2.54)
-        (name "BST" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 0 -7.62 90) (length 2.54)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 10.16 -2.54 180) (length 2.54)
-        (name "FB" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -10.16 -2.54 0) (length 2.54)
-        (name "EN" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -10.16 2.54 0) (length 2.54)
-        (name "VIN" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_out line (at 10.16 0 180) (length 2.54)
-        (name "LX" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "Si3437DV" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "Q" (at -1.27 1.27 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "Si3437DV" (at 0 -6.35 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "stdpads:SOT-23-6" (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27)) (justify top) hide)
-    )
-    (property "Datasheet" "" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Si3437DV_0_1"
-      (polyline
-        (pts
-          (xy 0.0508 0)
-          (xy 0.254 0)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.762 -1.778)
-          (xy 2.54 -1.778)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.762 -1.27)
-          (xy 0.762 -2.286)
-        )
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.762 0)
-          (xy 2.54 0)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.762 0.508)
-          (xy 0.762 -0.508)
-        )
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.762 1.778)
-          (xy 2.54 1.778)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.762 2.286)
-          (xy 0.762 1.27)
-        )
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.54 -1.778)
-          (xy 2.54 -2.54)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.54 -1.778)
-          (xy 2.54 0)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.54 2.54)
-          (xy 2.54 1.778)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.254 1.905)
-          (xy 0.254 -1.905)
-          (xy 0.254 -1.905)
-        )
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.286 0)
-          (xy 1.27 -0.381)
-          (xy 1.27 0.381)
-          (xy 2.286 0)
-        )
-        (stroke (width 0) (type default))
-        (fill (type outline))
-      )
-      (polyline
-        (pts
-          (xy 2.54 -1.778)
-          (xy 3.302 -1.778)
-          (xy 3.302 1.778)
-          (xy 2.54 1.778)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.794 -0.508)
-          (xy 2.921 -0.381)
-          (xy 3.683 -0.381)
-          (xy 3.81 -0.254)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 3.302 -0.381)
-          (xy 2.921 0.254)
-          (xy 3.683 0.254)
-          (xy 3.302 -0.381)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (circle (center 1.651 0) (radius 2.8194)
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (circle (center 2.54 -1.778) (radius 0.2794)
-        (stroke (width 0) (type default))
-        (fill (type outline))
-      )
-      (circle (center 2.54 1.778) (radius 0.2794)
-        (stroke (width 0) (type default))
-        (fill (type outline))
-      )
-    )
-    (symbol "Si3437DV_1_1"
-      (pin open_collector line (at 2.54 5.08 270) (length 2.54)
-        (name "D" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin open_collector line (at 2.54 5.08 270) (length 2.54) hide
-        (name "D" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -5.08 0 0) (length 5.08)
-        (name "G" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin open_emitter line (at 2.54 -5.08 90) (length 2.54)
-        (name "S" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin open_collector line (at 2.54 5.08 270) (length 2.54) hide
-        (name "D" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-      (pin open_collector line (at 2.54 5.08 270) (length 2.54) hide
-        (name "D" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "TLV80x" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "U" (at 0 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "TLV80x" (at 0 -6.35 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "stdpads:SOT-23" (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27)) (justify top) hide)
-    )
-    (property "Datasheet" "" (at 0 -2.54 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (symbol "TLV80x_0_1"
-      (rectangle (start -6.35 5.08) (end 6.35 -5.08)
-        (stroke (width 0.254) (type default))
-        (fill (type background))
-      )
-    )
-    (symbol "TLV80x_1_1"
-      (pin power_in line (at -11.43 -2.54 0) (length 5.08)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin open_emitter line (at 11.43 2.54 180) (length 5.08)
-        (name "~{RESET}" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -11.43 2.54 0) (length 5.08)
-        (name "Vdd" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "TPS54331D" (in_bom yes) (on_board yes)
-    (property "Reference" "U" (at 0 2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "TPS54331D" (at 0 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "stdpads:SOIC-8" (at 1.27 -11.43 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps54336a.pdf" (at 1.27 -13.97 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "ki_keywords" "Step-Down DC-DC Switching Regulator" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" " 4.5V to 28V Input, 3A, Synchronous Step-Down Converter with Eco-mode(tm)" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "TI*SO*PowerPAD*ThermalVias*" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "TPS54331D_1_1"
-      (rectangle (start -10.16 10.16) (end 10.16 -10.16)
-        (stroke (width 0.254) (type default))
-        (fill (type background))
-      )
-      (pin output line (at 12.7 7.62 180) (length 2.54)
-        (name "BOOT" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -12.7 7.62 0) (length 2.54)
-        (name "VIN" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -12.7 2.54 0) (length 2.54)
-        (name "EN" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at -12.7 -7.62 0) (length 2.54)
-        (name "SS" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 12.7 -6.35 180) (length 2.54)
-        (name "VSENSE" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at -12.7 -5.08 0) (length 2.54)
-        (name "COMP" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 0 -12.7 90) (length 2.54)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "7" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at 12.7 2.54 180) (length 2.54)
-        (name "PH" (effects (font (size 1.27 1.27))))
-        (number "8" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "TPS71745DCK" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "U" (at 0 6.35 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "TPS71745DCK" (at 0 -6.35 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "stdpads:SOT-353" (at 0 -7.62 0)
-      (effects (font (size 0.508 0.508)))
-    )
-    (property "Datasheet" "" (at 0 -2.54 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (symbol "TPS71745DCK_0_1"
-      (rectangle (start -6.35 5.08) (end 6.35 -5.08)
-        (stroke (width 0.254) (type default))
-        (fill (type background))
-      )
-    )
-    (symbol "TPS71745DCK_1_1"
-      (pin power_in line (at -11.43 2.54 0) (length 5.08)
-        (name "Vin" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -11.43 -2.54 0) (length 5.08)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -11.43 0 0) (length 5.08)
-        (name "En" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 11.43 -2.54 180) (length 5.08)
-        (name "NR" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_out line (at 11.43 2.54 180) (length 5.08)
-        (name "Vout" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "TPS73701" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "U" (at 0 5.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "TPS73701" (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "stdpads:SOT-223-6" (at 0 -8.89 0)
-      (effects (font (size 1.27 1.27)) (justify top) hide)
-    )
-    (property "Datasheet" "" (at 0 -3.81 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (symbol "TPS73701_0_1"
-      (rectangle (start -6.35 3.81) (end 6.35 -6.35)
-        (stroke (width 0.254) (type default))
-        (fill (type background))
-      )
-    )
-    (symbol "TPS73701_1_1"
-      (pin power_in line (at -11.43 1.27 0) (length 5.08)
-        (name "Vin" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_out line (at 11.43 1.27 180) (length 5.08)
-        (name "Vout" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -11.43 -3.81 0) (length 5.08)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 11.43 -3.81 180) (length 5.08)
-        (name "FB" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -11.43 -1.27 0) (length 5.08)
-        (name "En" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -11.43 -3.81 0) (length 5.08) hide
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "TS30011-M000QFN" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "U" (at 0 16.51 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "TS30011-M000QFN" (at 0 -16.51 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "stdpads:Semtech_QFN-16" (at 0 -17.78 0)
-      (effects (font (size 1.27 1.27)) (justify top) hide)
-    )
-    (property "Datasheet" "" (at 1.27 1.27 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (symbol "TS30011-M000QFN_0_1"
-      (rectangle (start -6.35 15.24) (end 6.35 -15.24)
-        (stroke (width 0.254) (type default))
-        (fill (type background))
-      )
-    )
-    (symbol "TS30011-M000QFN_1_1"
-      (pin power_out line (at 11.43 7.62 180) (length 5.08)
-        (name "Vsw" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line (at 11.43 12.7 180) (length 5.08)
-        (name "BST" (effects (font (size 1.27 1.27))))
-        (number "10" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -11.43 7.62 0) (length 5.08)
-        (name "Vcc" (effects (font (size 1.27 1.27))))
-        (number "11" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_out line (at 11.43 5.08 180) (length 5.08)
-        (name "Vsw" (effects (font (size 1.27 1.27))))
-        (number "12" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_out line (at 11.43 2.54 180) (length 5.08)
-        (name "Vsw" (effects (font (size 1.27 1.27))))
-        (number "13" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -11.43 0 0) (length 5.08)
-        (name "PGND" (effects (font (size 1.27 1.27))))
-        (number "14" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -11.43 -2.54 0) (length 5.08)
-        (name "PGND" (effects (font (size 1.27 1.27))))
-        (number "15" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 11.43 0 180) (length 5.08)
-        (name "Vsw" (effects (font (size 1.27 1.27))))
-        (number "16" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -11.43 -5.08 0) (length 5.08)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "17" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -11.43 12.7 0) (length 5.08)
-        (name "Vcc" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -11.43 10.16 0) (length 5.08)
-        (name "Vcc" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -11.43 2.54 0) (length 5.08)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 11.43 -2.54 180) (length 5.08)
-        (name "FB" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 11.43 -5.08 180) (length 5.08)
-        (name "NC" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 11.43 -7.62 180) (length 5.08)
-        (name "NC" (effects (font (size 1.27 1.27))))
-        (number "7" (effects (font (size 1.27 1.27))))
-      )
-      (pin open_collector line (at 11.43 -12.7 180) (length 5.08)
-        (name "PG" (effects (font (size 1.27 1.27))))
-        (number "8" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -11.43 -12.7 0) (length 5.08)
-        (name "En" (effects (font (size 1.27 1.27))))
-        (number "9" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "XC6206PxxxMR" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "U" (at 0 6.35 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "XC6206PxxxMR" (at 0 -6.35 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "stdpads:SOT-23" (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27)) (justify top) hide)
-    )
-    (property "Datasheet" "" (at 0 -2.54 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (symbol "XC6206PxxxMR_0_1"
-      (rectangle (start -6.35 5.08) (end 6.35 -5.08)
-        (stroke (width 0.254) (type default))
-        (fill (type background))
-      )
-    )
-    (symbol "XC6206PxxxMR_1_1"
-      (pin power_in line (at -11.43 -2.54 0) (length 5.08)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_out line (at 11.43 2.54 180) (length 5.08)
-        (name "Vout" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -11.43 2.54 0) (length 5.08)
-        (name "Vin" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "AP2127K"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP2127K"
+			(at 0 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "stdpads:SOT-23-5"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "AP2127K_0_1"
+			(rectangle
+				(start -6.35 5.08)
+				(end 6.35 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "AP2127K_1_1"
+			(pin power_in line
+				(at -11.43 2.54 0)
+				(length 5.08)
+				(name "Vin"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -11.43 -2.54 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -11.43 0 0)
+				(length 5.08)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 11.43 -2.54 180)
+				(length 5.08)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 11.43 2.54 180)
+				(length 5.08)
+				(name "Vout"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "AP3417C"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP3417C"
+			(at 0 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "stdpads:SOT-23-5"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "AP3417C_0_1"
+			(rectangle
+				(start -5.08 5.08)
+				(end 5.08 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "AP3417C_1_1"
+			(pin input line
+				(at -10.16 0 0)
+				(length 5.08)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -10.16 -2.54 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 10.16 2.54 180)
+				(length 5.08)
+				(name "LX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -10.16 2.54 0)
+				(length 5.08)
+				(name "Vin"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10.16 -2.54 180)
+				(length 5.08)
+				(name "FB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "AZ1117CH2"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -3.81 3.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AZ1117CH2"
+			(at 0 3.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/datasheets/AP1117.pdf"
+			(at 2.54 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A Low Dropout regulator, positive, 1.5V fixed output, SOT-223"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "linear regulator ldo fixed positive obsolete"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "SOT?223*TabPin2*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "AZ1117CH2_0_1"
+			(rectangle
+				(start -5.08 -5.08)
+				(end 5.08 1.905)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "AZ1117CH2_1_1"
+			(pin power_in line
+				(at -7.62 0 0)
+				(length 2.54)
+				(name "VI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -7.62 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name "VO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "BQ21040DBV"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BQ21040DBV"
+			(at 0 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "stdpads:SOT-23-6"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "BQ21040DBV_0_1"
+			(rectangle
+				(start -6.35 5.08)
+				(end 6.35 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "BQ21040DBV_1_1"
+			(pin unspecified line
+				(at 11.43 0 180)
+				(length 5.08)
+				(name "TS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 11.43 2.54 180)
+				(length 5.08)
+				(name "Out"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin tri_state line
+				(at -11.43 0 0)
+				(length 5.08)
+				(name "~{CHG}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 11.43 -2.54 180)
+				(length 5.08)
+				(name "ISet"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -11.43 -2.54 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -11.43 2.54 0)
+				(length 5.08)
+				(name "Vin"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "BQ297xxDSE"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BQ297xxDSE"
+			(at 0 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "stdpads:SOT-23-6"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "BQ297xxDSE_0_1"
+			(rectangle
+				(start -6.35 5.08)
+				(end 6.35 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "BQ297xxDSE_1_1"
+			(pin no_connect line
+				(at -11.43 2.54 0)
+				(length 5.08)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 11.43 0 180)
+				(length 5.08)
+				(name "COUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 11.43 -2.54 180)
+				(length 5.08)
+				(name "DOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -11.43 -2.54 0)
+				(length 5.08)
+				(name "Vss"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -11.43 0 0)
+				(length 5.08)
+				(name "BAT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 11.43 2.54 180)
+				(length 5.08)
+				(name "V-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "LM1117"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM1117"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" "stdpads:SOT-223"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 2.54 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A Low Dropout regulator, positive, 1.8V fixed output, SOT-223"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "linear regulator ldo fixed positive obsolete"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "SOT?223*TabPin2*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "LM1117_0_1"
+			(rectangle
+				(start -5.08 -5.08)
+				(end 5.08 1.905)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "LM1117_1_1"
+			(pin power_in line
+				(at 0 -7.62 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name "VO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -7.62 0 0)
+				(length 2.54)
+				(name "VI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "LM66100DCK"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM66100DCK"
+			(at 0 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "stdpads:SOT-353"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "LM66100DCK_0_1"
+			(rectangle
+				(start -6.35 5.08)
+				(end 6.35 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "LM66100DCK_1_1"
+			(pin power_in line
+				(at -11.43 2.54 0)
+				(length 5.08)
+				(name "Vin"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -11.43 -2.54 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -11.43 0 0)
+				(length 5.08)
+				(name "~{CE}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 11.43 -2.54 180)
+				(length 5.08)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 11.43 0 180)
+				(length 5.08)
+				(name "ST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 11.43 2.54 180)
+				(length 5.08)
+				(name "Vout"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "LM66200DRL"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM66200DRL"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "stdpads:SOT-583"
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "LM66200DRL_0_1"
+			(rectangle
+				(start -6.35 6.35)
+				(end 6.35 -6.35)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "LM66200DRL_1_1"
+			(pin power_in line
+				(at -11.43 -3.81 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 11.43 3.81 180)
+				(length 5.08)
+				(name "Vout"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -11.43 3.81 0)
+				(length 5.08)
+				(name "Vin1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -11.43 -1.27 0)
+				(length 5.08)
+				(name "~{ON}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 11.43 -3.81 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -11.43 1.27 0)
+				(length 5.08)
+				(name "Vin2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 11.43 1.27 180)
+				(length 5.08)
+				(name "Vout"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 11.43 -1.27 180)
+				(length 5.08)
+				(name "ST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "MAX40200AUK"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MAX40200AUK"
+			(at 0 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "stdpads:SOT-353"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "MAX40200AUK_0_1"
+			(rectangle
+				(start -6.35 5.08)
+				(end 6.35 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "MAX40200AUK_1_1"
+			(pin power_in line
+				(at -11.43 2.54 0)
+				(length 5.08)
+				(name "Vin"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -11.43 -2.54 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -11.43 0 0)
+				(length 5.08)
+				(name "En"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 11.43 -2.54 180)
+				(length 5.08)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 11.43 2.54 180)
+				(length 5.08)
+				(name "Vout"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "MIC2005A"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MIC2005A"
+			(at 0 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "stdpads:SOT-23-6"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "MIC2005A_0_1"
+			(rectangle
+				(start -6.35 5.08)
+				(end 6.35 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "MIC2005A_1_1"
+			(pin power_in line
+				(at -11.43 2.54 0)
+				(length 5.08)
+				(name "Vin"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -11.43 -2.54 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -11.43 0 0)
+				(length 5.08)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 11.43 -2.54 180)
+				(length 5.08)
+				(name "~{FLT}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 11.43 0 180)
+				(length 5.08)
+				(name "Cslew"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 11.43 2.54 180)
+				(length 5.08)
+				(name "Vout"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "MIC5353YMT"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MIC5353YMT"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "stdpads:Micrel_TMLF-6_1.6x1.6mm"
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "MIC5353YMT_0_1"
+			(rectangle
+				(start -6.35 3.81)
+				(end 6.35 -6.35)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "MIC5353YMT_1_1"
+			(pin input line
+				(at -11.43 -1.27 0)
+				(length 5.08)
+				(name "En"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -11.43 -3.81 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -11.43 1.27 0)
+				(length 5.08)
+				(name "Vin"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 11.43 1.27 180)
+				(length 5.08)
+				(name "Vout"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 11.43 -1.27 180)
+				(length 5.08)
+				(name "Adj"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 11.43 -3.81 180)
+				(length 5.08)
+				(name "BYP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -11.43 -3.81 0)
+				(length 5.08) hide
+				(name "pad"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "MIC5365-1.2YC5"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MIC5365-1.2YC5"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "stdpads:SOT-353"
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "MIC5365-1.2YC5_0_1"
+			(rectangle
+				(start -6.35 3.81)
+				(end 6.35 -6.35)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "MIC5365-1.2YC5_1_1"
+			(pin power_in line
+				(at -11.43 1.27 0)
+				(length 5.08)
+				(name "Vin"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -11.43 -3.81 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -11.43 -1.27 0)
+				(length 5.08)
+				(name "En"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 11.43 -3.81 180)
+				(length 5.08)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 11.43 1.27 180)
+				(length 5.08)
+				(name "Vout"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "MIC5365-1.8YC5"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MIC5365-1.8YC5"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "stdpads:SOT-353"
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "MIC5365-1.8YC5_0_1"
+			(rectangle
+				(start -6.35 3.81)
+				(end 6.35 -6.35)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "MIC5365-1.8YC5_1_1"
+			(pin power_in line
+				(at -11.43 1.27 0)
+				(length 5.08)
+				(name "Vin"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -11.43 -3.81 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -11.43 -1.27 0)
+				(length 5.08)
+				(name "En"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 11.43 -3.81 180)
+				(length 5.08)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 11.43 1.27 180)
+				(length 5.08)
+				(name "Vout"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "MP2451"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MP2451"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "stdpads:SOT-23-6"
+			(at 0 -6.35 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.2 A Simple Buck Regulator, 3-26V input, 1.5Mhz"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "switching buck converter"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "SOT?23*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "MP2451_0_1"
+			(rectangle
+				(start -7.62 5.08)
+				(end 7.62 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "MP2451_1_1"
+			(pin input line
+				(at 10.16 2.54 180)
+				(length 2.54)
+				(name "BST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -7.62 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10.16 -2.54 180)
+				(length 2.54)
+				(name "FB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 -2.54 0)
+				(length 2.54)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -10.16 2.54 0)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 10.16 0 180)
+				(length 2.54)
+				(name "LX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Si3437DV"
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at -1.27 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Si3437DV"
+			(at 0 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "stdpads:SOT-23-6"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Si3437DV_0_1"
+			(polyline
+				(pts
+					(xy 0.0508 0) (xy 0.254 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -1.778) (xy 2.54 -1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -1.27) (xy 0.762 -2.286)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 0) (xy 2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 0.508) (xy 0.762 -0.508)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 1.778) (xy 2.54 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 2.286) (xy 0.762 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -1.778) (xy 2.54 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -1.778) (xy 2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 2.54) (xy 2.54 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.254 1.905) (xy 0.254 -1.905) (xy 0.254 -1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.286 0) (xy 1.27 -0.381) (xy 1.27 0.381) (xy 2.286 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 2.54 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 1.651 0)
+				(radius 2.8194)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 -1.778)
+				(radius 0.2794)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 2.54 1.778)
+				(radius 0.2794)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "Si3437DV_1_1"
+			(pin open_collector line
+				(at 2.54 5.08 270)
+				(length 2.54)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at 2.54 5.08 270)
+				(length 2.54) hide
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 0 0)
+				(length 5.08)
+				(name "G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin open_emitter line
+				(at 2.54 -5.08 90)
+				(length 2.54)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at 2.54 5.08 270)
+				(length 2.54) hide
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at 2.54 5.08 270)
+				(length 2.54) hide
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "TLV80x"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV80x"
+			(at 0 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "stdpads:SOT-23"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TLV80x_0_1"
+			(rectangle
+				(start -6.35 5.08)
+				(end 6.35 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "TLV80x_1_1"
+			(pin power_in line
+				(at -11.43 -2.54 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin open_emitter line
+				(at 11.43 2.54 180)
+				(length 5.08)
+				(name "~{RESET}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -11.43 2.54 0)
+				(length 5.08)
+				(name "Vdd"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "TPS22919"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS22919"
+			(at 0 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "stdpads:SOT-363"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TPS22919_0_1"
+			(rectangle
+				(start -6.35 5.08)
+				(end 6.35 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "TPS22919_1_1"
+			(pin power_in line
+				(at -11.43 2.54 0)
+				(length 5.08)
+				(name "Vin"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -11.43 -2.54 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -11.43 0 0)
+				(length 5.08)
+				(name "En"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 11.43 -2.54 180)
+				(length 5.08)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 11.43 0 180)
+				(length 5.08)
+				(name "QOD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 11.43 2.54 180)
+				(length 5.08)
+				(name "Vout"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "TPS54331D"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS54331D"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "stdpads:SOIC-8"
+			(at 1.27 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps54336a.pdf"
+			(at 1.27 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" " 4.5V to 28V Input, 3A, Synchronous Step-Down Converter with Eco-mode(tm)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Step-Down DC-DC Switching Regulator"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "TI*SO*PowerPAD*ThermalVias*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TPS54331D_1_1"
+			(rectangle
+				(start -10.16 10.16)
+				(end 10.16 -10.16)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin output line
+				(at 12.7 7.62 180)
+				(length 2.54)
+				(name "BOOT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -12.7 7.62 0)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 2.54 0)
+				(length 2.54)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -12.7 -7.62 0)
+				(length 2.54)
+				(name "SS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 12.7 -6.35 180)
+				(length 2.54)
+				(name "VSENSE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -12.7 -5.08 0)
+				(length 2.54)
+				(name "COMP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -12.7 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 2.54 180)
+				(length 2.54)
+				(name "PH"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "TPS62A01"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS62A01"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "stdpads:SOT-563"
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TPS62A01_0_1"
+			(rectangle
+				(start -6.35 3.81)
+				(end 6.35 -6.35)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "TPS62A01_1_1"
+			(pin power_in line
+				(at -11.43 -3.81 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 11.43 1.27 180)
+				(length 5.08)
+				(name "SW"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -11.43 1.27 0)
+				(length 5.08)
+				(name "Vin"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -11.43 -1.27 0)
+				(length 5.08)
+				(name "En"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 11.43 -1.27 180)
+				(length 5.08)
+				(name "FB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 11.43 -3.81 180)
+				(length 5.08)
+				(name "PG/OUT"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "TPS71745DCK"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS71745DCK"
+			(at 0 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "stdpads:SOT-353"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TPS71745DCK_0_1"
+			(rectangle
+				(start -6.35 5.08)
+				(end 6.35 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "TPS71745DCK_1_1"
+			(pin power_in line
+				(at -11.43 2.54 0)
+				(length 5.08)
+				(name "Vin"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -11.43 -2.54 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -11.43 0 0)
+				(length 5.08)
+				(name "En"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 11.43 -2.54 180)
+				(length 5.08)
+				(name "NR"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 11.43 2.54 180)
+				(length 5.08)
+				(name "Vout"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "TPS73701"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS73701"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "stdpads:SOT-223-6"
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TPS73701_0_1"
+			(rectangle
+				(start -6.35 3.81)
+				(end 6.35 -6.35)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "TPS73701_1_1"
+			(pin power_in line
+				(at -11.43 1.27 0)
+				(length 5.08)
+				(name "Vin"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 11.43 1.27 180)
+				(length 5.08)
+				(name "Vout"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -11.43 -3.81 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 11.43 -3.81 180)
+				(length 5.08)
+				(name "FB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -11.43 -1.27 0)
+				(length 5.08)
+				(name "En"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -11.43 -3.81 0)
+				(length 5.08) hide
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "TS30011-M000QFN"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS30011-M000QFN"
+			(at 0 -16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "stdpads:Semtech_QFN-16"
+			(at 0 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1.27 1.27 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TS30011-M000QFN_0_1"
+			(rectangle
+				(start -6.35 15.24)
+				(end 6.35 -15.24)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "TS30011-M000QFN_1_1"
+			(pin power_out line
+				(at 11.43 7.62 180)
+				(length 5.08)
+				(name "Vsw"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 11.43 12.7 180)
+				(length 5.08)
+				(name "BST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -11.43 7.62 0)
+				(length 5.08)
+				(name "Vcc"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 11.43 5.08 180)
+				(length 5.08)
+				(name "Vsw"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 11.43 2.54 180)
+				(length 5.08)
+				(name "Vsw"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -11.43 0 0)
+				(length 5.08)
+				(name "PGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -11.43 -2.54 0)
+				(length 5.08)
+				(name "PGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 11.43 0 180)
+				(length 5.08)
+				(name "Vsw"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -11.43 -5.08 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -11.43 12.7 0)
+				(length 5.08)
+				(name "Vcc"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -11.43 10.16 0)
+				(length 5.08)
+				(name "Vcc"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -11.43 2.54 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 11.43 -2.54 180)
+				(length 5.08)
+				(name "FB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 11.43 -5.08 180)
+				(length 5.08)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 11.43 -7.62 180)
+				(length 5.08)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at 11.43 -12.7 180)
+				(length 5.08)
+				(name "PG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -11.43 -12.7 0)
+				(length 5.08)
+				(name "En"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "XC6206PxxxMR"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XC6206PxxxMR"
+			(at 0 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "stdpads:SOT-23"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "XC6206PxxxMR_0_1"
+			(rectangle
+				(start -6.35 5.08)
+				(end 6.35 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "XC6206PxxxMR_1_1"
+			(pin power_in line
+				(at -11.43 -2.54 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 11.43 2.54 180)
+				(length 5.08)
+				(name "Vout"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -11.43 2.54 0)
+				(length 5.08)
+				(name "Vin"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 )
